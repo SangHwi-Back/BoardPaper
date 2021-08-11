@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Alarm" representedClassName="Alarm" syncable="YES">
+        <attribute name="contents" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="isRoutine" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="popDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="privateKey" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="MainMenu" representedClassName="MainMenu" syncable="YES">
+        <attribute name="destination_identifier" optional="YES" attributeType="String"/>
+        <attribute name="icon_name" optional="YES" attributeType="String"/>
+        <attribute name="main_menu_key" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="menu_kind" optional="YES" attributeType="String"/>
+        <attribute name="menu_name" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SubMenu" representedClassName="SubMenu" syncable="YES">
+        <attribute name="destination_identifier" optional="YES" attributeType="String"/>
+        <attribute name="icon_name" optional="YES" attributeType="String"/>
+        <attribute name="main_menu_key" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="menu_kind" optional="YES" attributeType="String"/>
+        <attribute name="menu_name" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Alarm" positionX="-365.01953125" positionY="26.0703125" width="128" height="104"/>
+        <element name="MainMenu" positionX="-63" positionY="18" width="128" height="119"/>
+        <element name="SubMenu" positionX="-216" positionY="63" width="128" height="14"/>
+    </elements>
+</model>
